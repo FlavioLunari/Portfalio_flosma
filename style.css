@@ -1,0 +1,124 @@
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: #1b1e4b;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Encabezado */
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo{
+    max-width: 250px;
+    margin: 0 auto 10px;
+}
+
+header h1{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.username {
+    color: #82d0da;
+    font-size: 1rem;
+}
+
+
+/* Secciones */
+
+section{
+    margin-bottom: 20px;
+}
+
+
+
+.intro h2{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #5f73a1;
+    margin-top: 20px;
+}
+
+.servicios ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+
+.servicios li{
+    background-color: #f0f6fa;
+    padding: 10px;
+    border-left: 5px solid #c09ddf;
+    margin-bottom: 10px;
+}
+
+/* contacto */
+
+.contacto a{
+    color: #f09db4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #888;
+  }
+
+  /* Fondo para la sección de introducción */
+
+  .intro {
+    background: linear-gradient(135deg, #82d0da, #ffffff);
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  
+/* Fondo para la sección de servicios */
+.servicios {
+    background: linear-gradient(135deg, #c09ddf, #f9f7fc);
+    padding: 40px 20px;
+    border-radius: 12px;
+  }
+
+  /* Fondo para la sección sobre mí */
+.sobre-mi {
+    background: linear-gradient(135deg, #f09db4, #ffffff);
+    padding: 40px 20px;
+    border-radius: 12px;
+  }
+
+  /* Fondo para la sección de contacto */
+.contacto {
+    background: linear-gradient(135deg, #5f73a1, #e5f4f8);
+    padding: 40px 20px;
+    border-radius: 12px;
+    color: #fff;
+  }
+  .contacto a {
+    color: #ffe9f0;
+  }  
+  /* Espaciado general entre secciones */
+section {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
