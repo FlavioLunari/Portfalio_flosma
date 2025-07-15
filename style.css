@@ -17,10 +17,34 @@ body {
 /* Encabezado */
 
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
-}
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: #1b1e4b;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .nav a:hover {
+    color: #f09db4;
+  }
 
 .logo{
     max-width: 250px;
@@ -42,7 +66,44 @@ header h1{
 
 section{
     margin-bottom: 20px;
+    scroll-margin-top: 200px;
 }
+
+.sobre-mi,
+.contacto {
+  font-size: 1rem; /* Ajusta el tamaño de texto */
+  padding: 30px 20px; /* Reduce margen interno */
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 40px; /* Centrado y espaciado abajo */
+  border-radius: 12px;
+}
+
+.sobre-mi h2,
+.contacto h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+
+/* SOBRE MI - FOTO */
+
+.contenedor-sobremi {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.foto-doctora {
+    width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .texto-sobremi {
+    flex: 1;
+  }
 
 
 
@@ -70,10 +131,25 @@ section{
 /* contacto */
 
 .contacto a{
-    color: #f09db4;
+color: #f09db4;
   text-decoration: none;
   font-weight: bold;
 }
+
+.btn-sobremi {
+    display: inline-block;
+    background-color: #82d0da;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+
+  .btn-sobremi:hover {
+    background-color: #5f73a1;
+  }
 
 footer {
     text-align: center;
@@ -122,3 +198,5 @@ section {
     margin-bottom: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   }
+
+  

@@ -8,18 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+
+    <header class="header">
         <img src="img/eyesoftiger.jpg" alt="Logo Dra. Flos Colina" class="logo">
-        <h1>Dra.Flos Colina</h1>
-        <p class="username">@eye_ofthetiger92</p>
-    </header>
+        <nav class="nav">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
  
-    <section class="intro">
+      <section id="inicio" class="intro">
         <h2>Cuidamos tu vision con profesionalismo y calidez</h2>
-    </section>
+      </section>
     
-    <section class="servicios">
-        <h2>servicios</h2>
+      <section id="servicios" class="servicios">
+        <h2 class="intro">Servicios</h2>
         <ul>
            <li>👁 Consulta oftalmológica general</li> 
            <li>🧪 Control de presión ocular</li>
@@ -28,17 +35,28 @@
         </ul>
     </section>
     
-    <section class="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Soy oftalmóloga apasionada por la salud visual. Con años de experiencia y formación continua, mi misión es brindar atención personalizada y de calidad a cada paciente</p>
-    </section>
+    <section id="sobremi" class="sobre-mi">
+        <div class="contenedor-sobremi">
+          <img src="img/doct1.jpg" alt="Dra. Flos Colina" class="foto-doctora">
+          <div class="texto-sobremi">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy la <strong>Dra. Flos Colina</strong>, médica oftalmóloga con más de <strong>5 años de experiencia</strong> en el cuidado de la salud visual. Mi compromiso es brindar una atención personalizada, profesional y cálida a cada paciente.<br><br>
+                Cuento con formación en <strong>diagnóstico clínico, control de presión ocular y prescripción de lentes</strong>, y atiendo actualmente en mi consultorio ubicado en Buenos Aires.
+                <p>🎓 Egresada de la Universidad de Buenos Aires</p>
+                <p>👁 Experta en exámenes de fondo de ojo y agudeza visual</p>
+              </p>
+          </div>
+        </div>
+      </section>
    
-    <section class="contacto">
-        <h2>contacto</h2>
+    <section id="contacto" class="contacto">
+            <h2 section class="contacto"> contacto</h2>
             <p> 📍 Puedes Atenderte solicitando una cita en Clinica de ojos Doctor Nano</p>
             <p> 📱 WhatsApp: 11 2759-7215 </p>
             <p> 📷 Instagram: <a href="https://instagram.com/eye_ofthetiger92" target="_blank">@eye_ofthetiger92</a></p>
-    </section>
+            <a href="#contacto" class="btn-sobremi">Reservar consulta</a>
+        </section>
     
     <footer>
         <p>&copy; 2025 Dra. Flos Colina - Todos los derechos reservados.</p>
